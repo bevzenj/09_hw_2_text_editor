@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url("../fonts/Proxima_Nova/Proxima\ Nova\ Regular.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:ital@0;1&display=swap');
+
+body {
+    position: relative;
+    background: #464f54;
+    margin: 0 300px;
+  }
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+  .header-container {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 50px;
+  }
+
+.header-input {
+    background: #181818;
+    padding: 40px 0 60px 50px;
+}
+
+.header-input__title {
+    font-family: 'Proxima Nova';
+    font-size: 15px;
+    color: #767676;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.header-input__text {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #303030;
+    outline: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #fefefe;
+    background: #181818;
+    width: 800px;
+}
+
+.header-choice {
+    width: 80%;
+    height: fit-content;
+    background: #fbc02d;
+}
+
+.header-choise__element {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.label-checkbox {
+    cursor: pointer;
+    color: #e8e8e8;
+}
+
+.checkbox-btn:checked + .material-icons {
+    color: #ffffff;
+}
+
+.checkbox-btn {
+    display: none;
+}
+
+.main {
+    margin: 0 50px;
+    background: #ffffff;
+}
+
+.main-container {
+    margin: 150px 70px;
+    padding: 180px 50px 30px;
+    background: #ffffff;
+    border-left: 2px solid #e8eced;
+}
+
+.main-author__content {
+    font-family: 'Proxima Nova';
+    font-size: 20px;
+    color: #b4b4b4;
+    text-transform: uppercase;
+    margin: 0 0 40px 0;
+}
+
+.main-title__content {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 77px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-remark__content {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    color: #8f8f8f;
+    margin: 0 0 40px 0;
+}
+
+.main-text__content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+}
+
+.main-text__italic {
+    font-style: italic;
+}
